@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="task6.css">
+    <title>Book a Call</title>
+</head>
+<body>
+    <div class="container">
+    <form action="#" onsubmit="onsignup(event)">
+        <h1>Book a Call</h1>
+        <p type="smaller-text" class="smaller-text">Book a call slot and our representative will call you within 1hr of selected time</p>
+    
+        <label for='name'>FirstName:</label><br>
+        <input type="text" name="name" id="first-name" placeholder="Enter your first Name" required><br>
+
+        <label for="name" >LastName:</label><br>
+        <input type="text" name="name" id="last-name" placeholder="Enter your LastName" required ><br>
+
+        <label for="email">EmailId:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your emailId" required><br>
+
+        <label for="phone">PhoneNo.</label><br>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your PhoneNo." required><br>
+
+        <label for="time">Time for call:</label><br>
+        <input type="date" name="date" id="date"  required>
+        <input type="time" name="time" id="time" required><br>
+        <button type="submit" name="submit" id="submit">Get A Call</button>
+    </form>
+</div>
+<script src="task6.js"></script>
+</body>
+</html>

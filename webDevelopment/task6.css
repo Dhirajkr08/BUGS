@@ -1,0 +1,43 @@
+body{
+    background-image:url('5291450.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    
+
+
+}
+
+
+input{
+    width: 330px;
+    height: 30px;
+
+
+}
+#time{
+    width: 160px;
+}
+#date{
+    width:160px;
+}
+#submit{
+    width:340px;
+    height:40px;
+    background-color: blueviolet;
+}
+form{
+    background-color: beige;
+    width: 350px;
+    background-position: center;
+
+}
+p{
+    font-size: 10px;
+    
+}
+
+
