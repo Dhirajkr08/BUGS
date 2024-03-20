@@ -1,0 +1,26 @@
+body{
+    background-image:url('style.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+    text-align: center;
+    
+}
+button{
+    background-color: azure;
+}
+
+input[type="checkbox"]{
+    background-color: azure;
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    border-color: white;
+    border-width: 10px;
+}
+
+
+

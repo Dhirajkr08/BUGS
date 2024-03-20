@@ -1,0 +1,28 @@
+.container{
+    max-width: 600px;
+    margin:50px auto;
+    padding: 20px;
+    background-color:ghostwhite;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+button{
+    padding:10px 20px;
+    background-color: dodgerblue;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+h1{
+    position: center;
+    padding: 20%;
+    border-width: 20px;
+}
+

@@ -1,0 +1,14 @@
+const quizData=[
+    {
+        question: "What is the capital of france?",
+        options:['London','Paris','Berlin','Madrid'],
+        answer:'Paris'
+    },
+    {
+        question:"Which planet is know as the Red Planet?",
+        options:['Earth','Mars','Jupiter','venus'],
+        answer: 'Mars'
+    }
+
+
+]

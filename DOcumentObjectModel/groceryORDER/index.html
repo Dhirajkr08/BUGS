@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Grocery-Order</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ORDER LIST</h1>
+        <form id="form">
+            <div>
+                <input id="itemt" type="text" placeholder="Enter your Item" required>
+                <input id="price" placeholder="$" required>
+                <br>
+                <lable for="options">Choose Option:</lable>
+                <select id="options" required>
+                    <option>...</option>
+                    <option value="option1">Food Item</option>
+                    <option value="option2">Medicine Item</option>
+                    <option value="option3">Skin Care</option>
+                    <option value="option4">Electric Item</option>
+                </select>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <div id="order">
+        <h2>Order List:</h2>
+        <div id="order1">
+            <h3>Food Items:</h3>
+            <ul id="option1oder"></ul>
+        </div>
+        <div id="order2">
+            <h3>Medicine Items:</h3>
+            <ul id="option2order"></ul>
+        </div>
+        <div id="order3">
+            <h3>Skin Care:</h3>
+            <ul id="option3order"></ul>
+        </div>
+        <div id="order4">
+            <h3>Electric Items:</h3>
+            <ul id="option4order"></ul>
+        </div>
+    </div>
+    
+</body>
+</html>
