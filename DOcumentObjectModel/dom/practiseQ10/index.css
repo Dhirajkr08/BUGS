@@ -1,0 +1,70 @@
+#div1{
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+#filter{
+    margin-left: auto;
+    width: 30%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
+#submit{
+    background-color: #80f736d2;
+    width:30%;
+    border-radius:5px;
+    border: none;
+    padding:10px;
+    
+    
+}
+#add{
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.fruits{
+    background-color: pink;
+    width: 92%;
+    height: auto;
+    border: 6px solid pink;
+    border-radius: 5px;
+}
+.fruit{
+    display: flex;
+    background-color:beige ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.edit-btn{
+    background-color:burlywood;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+
+    
+
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    
+    
+}
+

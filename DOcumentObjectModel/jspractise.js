@@ -1083,6 +1083,7 @@ function main(){
 }
 main()*/
 
+/*
 function printEven(n){
     let i=1
     while(i<=n){
@@ -1097,3 +1098,146 @@ function main(){
     printEven(n)
 }
 main()
+*/
+
+
+/*
+function palindromeSingleSwap(s1,s2){
+    if(s1.length!==s2.length) return false
+    count=0
+    arr=[]
+    for (let i=0;i<s1.length;i++){
+        if(s1[i]!==s2[i]){
+            count+=1
+            arr.push(i)
+            if (count>2){
+                return false
+            }
+        }
+    }
+    if(count===0){
+        return false
+    }
+    if (count==2){
+        return s1[arr[0]]===s2[arr[1]] && s1[arr[1]]===s2[arr[0]]
+    }
+    return false
+}
+function main(){
+    let s1='sharpener'
+    let s2='sharpener'
+    console.log(palindromeSingleSwap(s1,s2))
+}
+main()
+*/
+
+/*
+function palindromeSwap(s1,s2){
+    if(s1.length!==s2.length){
+        return false
+    }
+    let count=0
+    let arr=[]
+    for(let i=0;i<s1.length;i++){
+        if(s1[i]!==s2[i]){
+            count++
+            arr.push(i)
+            if(count>2){
+                return false
+            }
+        }
+    }
+    if(count===0){
+        return false
+    }
+    if(count===2){
+        return s1[arr[0]]===s2[arr[1]] && s1[arr[1]]===s2[arr[0]]
+    }
+}
+function main(){
+    let s1='pharsener'
+    let s2='sharpener'
+    console.log(palindromeSwap(s1,s2))
+}
+main()
+*/
+
+/*
+function findfirstndLastIndices(arr,x){
+    arr.sort((a,b)=>a-b)
+    let firstIndex=arr.indexOf(x)
+    let secondIndex=arr.lastIndexOf(x)
+    return [firstIndex,secondIndex]
+}
+function main(){
+    let arr=[1,3,5,5,5,5,67,123,125]
+    let x=5
+    console.log(findfirstndLastIndices(arr,x))
+}
+main()
+*/
+
+/*
+function findfirstndLastIndices(arr,x){
+    let firstIndex=-1
+    let secondIndex=-1
+    let low=0
+    let high=arr.length-1
+    while(low<=high){
+        let mid=Math.floor((low+high)/2)
+        if(arr[mid]===x){
+            firstIndex=mid
+            high=mid-1
+        }else if(arr[mid]<x){
+            low=mid+1
+        }else{
+            high=mid-1
+        }
+    }
+    let l=0
+    let h=arr.length-1
+    while(l<=h){
+        let m=Math.floor((l+h)/2)
+        if(arr[m]===x){
+            secondIndex=m
+            l=m+1
+        }else if(arr[m]<=x){
+            l=m+1
+        }else{
+            h=m-1
+        }
+    }
+    return [firstIndex,secondIndex]
+
+}
+function main(){
+    let arr=[1,3,5,5,5,5,67,123,125]
+    let x=5
+    console.log(findfirstndLastIndices(arr,x))
+
+}
+main()
+*/
+
+/*function calculateDominance(x,arr){
+    let dominance=arr[0]
+    for(let i=0;i<x;i++){
+        if(i%2===0){
+            dominance+=arr[i]
+        }
+        else{
+            dominance-=arr[i]
+        }
+    }
+    return dominance
+}
+function main(){
+    let x=6
+    let arr=[4,1,5,8,6,2]
+    console.log(calculateDominance(x,arr))
+}
+main()
+
+*/
+
+

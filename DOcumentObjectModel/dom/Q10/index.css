@@ -1,0 +1,70 @@
+#div1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+#filter{
+    margin-left: auto;
+    padding: 10px;
+    width: 30%;
+    border-radius: 20px;
+}
+#search{
+    border:2px solid palegreen;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+
+}
+#submit{
+    background-color: palegreen;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border:solid palegreen
+}
+.fruits{
+    background-color: pink;
+    width:70%;
+    height:auto;
+    border:6px solid pink;
+    border-radius: 5px;
+    list-style-type: none;
+
+    
+}
+.fruit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    width:90%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}    
+
+.delete-btn{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border:2px solid pink;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+

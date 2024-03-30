@@ -1,0 +1,49 @@
+form{
+    background-color: gray;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    border:5px solid bisque;
+    border-radius: 5px;
+
+}
+#div1{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border:2px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    color:darkmagenta
+    
+}
+#form input{
+    border: 2px solid bisque;
+    border-radius: 5px;
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#form label{
+    font-style:italic;
+    font-weight: bold;
+    color: darkblue;
+}
+#div2{
+    background-color: lightcoral;
+    border: 2px solid pink;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#submit{
+    background-color: darkcyan;
+    width: 100%;
+    border: 3px solid lightslategray;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+}

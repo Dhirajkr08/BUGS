@@ -1,0 +1,23 @@
+form{
+    font-family: Arial;
+    background-color: gray;
+    padding:20px;
+    border-radius:20px
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    color:blue
+}
+
+input{
+    font-style: italic;
+    margin-bottom:20px ;
+    height: 30px;
+}
+button{
+    background-color: yellow;
+    width:225px;
+    border:1px solid yellow
+}
