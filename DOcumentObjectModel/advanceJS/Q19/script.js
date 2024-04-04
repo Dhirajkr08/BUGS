@@ -26,7 +26,7 @@ function addItem(e){
 
     })
 
-}
+} 
 function displayUserData(user){
     const details=document.createElement('li')
     details.textContent=`Name: ${user.name}, EmailID: ${user.email}, Contact: ${user.phone}`;

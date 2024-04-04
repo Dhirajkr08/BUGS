@@ -1,0 +1,60 @@
+#div1{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+
+
+#header1{
+    color:blueviolet;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#form label{
+    color: cadetblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#form input{
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    border-radius:5px ;
+    border:2px solid bisque;
+    padding: 5px;
+    background-color: cornsilk;
+
+}
+#submit{
+    background-color: red;
+    padding: 6px;
+    border:2px solid bisque;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+#div2{
+    justify-content: center;
+    background-color: lightpink;
+    border:2px solid bisque;
+    margin-top: 10px;
+    border-radius: 5px;
+    height:auto
+}
+#div3{
+    height: auto;
+    background-color: lightpink;
+    border: 2px solid bisque;
+    margin-top:10px;
+    border-radius:5px;
+
+}
