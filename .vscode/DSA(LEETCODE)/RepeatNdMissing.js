@@ -3,7 +3,7 @@ function repeatAndMissing(A){
     let repeat=0
     let missing=0
     let n=A.length;
-    for (let i=0;i<n;i++){
+    for(let i=0;i<n;i++){
         if(A[i]===A[i-1]){
             repeat=A[i]
         }
@@ -14,7 +14,7 @@ function repeatAndMissing(A){
     if(A[0]!==1){
         missing=1
     }
-    if(A[n-1]!==n){
+    else if(A[n-1]!==n){
         missing=n
     }
     return [repeat,missing]
