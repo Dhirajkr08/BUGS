@@ -1,0 +1,61 @@
+#header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 5px;padding: 10px;
+
+}
+#count{
+    display: flex;
+    justify-content: flex-end;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#slot{
+    display: flex;
+    justify-content:right;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 50%;
+}
+input{
+    width: 40%;
+}
+label{
+    font-size: 80%;
+}
+#div2{
+    display: flex;
+    border-radius: 5px;
+}
+#submit{
+    background-color: red;
+    border-radius: 5px;
+    width: 40%;
+    border:none
+}
+#div2{
+    background-color:azure;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#div3{
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+}
+#form{
+    background-color: beige;
+}
+#name{
+    border-radius: 5px;
+}
+#number{
+    border-radius: 5px;
+}

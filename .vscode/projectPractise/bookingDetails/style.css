@@ -1,0 +1,42 @@
+form{
+    background-color:lightgray;
+    justify-content: center;
+    width: 100%;
+    border:2px solid greenyellow;
+    border-radius: 5px;
+}
+input{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    border:2px solid green;
+    border-radius:5px;
+    background-color: lightpink;
+    font-style: italic;
+
+}
+#submit{
+    background-color: red;
+    color: cadetblue;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#header1{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    width: 100%;
+    color: blueviolet;
+}
+#div3{
+    background-color: burlywood;
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+}

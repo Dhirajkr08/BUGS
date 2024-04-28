@@ -32,7 +32,7 @@ function addItem(e){
 
     //posting data on axios
     axios
-    .post('https://crudcrud.com/api/4b3d34970b634ba68cedea3412d7cd3f/groceryData',data)
+    .post('https://crudcrud.com/api/8a8f0498eac04681af12f945047d5d06/groceryData',data)
     .then((result)=>{
         console.log('Data successfully submitted',result.data)
         const userId=result.data._id
@@ -56,7 +56,7 @@ function DisplayData(list,data,userId){
     function delItem(e){
         e.preventDefault()
         axios
-        .delete(`https://crudcrud.com/api/4b3d34970b634ba68cedea3412d7cd3f/groceryData/${userId}`)
+        .delete(`https://crudcrud.com/api/8a8f0498eac04681af12f945047d5d06/groceryData/${userId}`)
         .then((result)=>{
             console.log('Data Successfully removed',result.data)
             list.removeChild(display)
@@ -84,7 +84,7 @@ function DisplayData(list,data,userId){
         const newData={item:editeditem,price:editedPrice}
 
         axios
-        .put(`https://crudcrud.com/api/4b3d34970b634ba68cedea3412d7cd3f/groceryData/${userId}`,newData)
+        .put(`https://crudcrud.com/api/8a8f0498eac04681af12f945047d5d06/groceryData/${userId}`,newData)
         .then((res)=>{
             console.log('successfully edited',res.data)
             display.textContent=`Item:${editeditem}, Price:${editedPrice}`

@@ -1,25 +1,25 @@
-function mergeSortedArray(nums1,m,nums2,n){
+function mergeSortedArray(arr,arr1,n,m){
     let i=m-1
     let j=n-1
-    let k=m+n-1
+    let k=(m+n)-1
     while(j>=0){
-        if(i>=0 & nums1[i]>nums2[j]){
-            nums1[k]=nums1[i]
+        if(i>=0 & arr[i]>arr1[j]){
+            arr[k]=arr[i]
             i--
-
-        }else{
-            nums1[k]=nums2[j]
+        }
+        else{
+            arr[k]=arr1[j]
             j--
         }
         k--
-    }
-    return nums1
+    } 
+    return arr
 }
 function main(){
-    let nums1=[1,2,3,0,0,0]
+    let arr=[1,2,3,0,0,0]
     let m=3
-    let nums2=[2,5,6]
+    let arr1=[2,5,6]
     let n=3
-    console.log(mergeSortedArray(nums1,m,nums2,n))
+    console.log(mergeSortedArray(arr,arr1,m,n))
 }
 main()
