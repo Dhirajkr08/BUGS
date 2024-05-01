@@ -84,6 +84,7 @@ function main(){
 }
 main()
 */
+/*
 function numberofGoodPairs(nums){
     let count=0
     for(let i=0;i<nums.length;i++){
@@ -97,5 +98,45 @@ function numberofGoodPairs(nums){
 function main(){
     let nums = [1,2,3,1,1,3]
     console.log(numberofGoodPairs(nums))
+}
+main()
+*/
+
+/*function sumOfValues(n){
+    let sum=0
+    for(let i=1;i<=n;i++){
+        sum+=i*n
+    }return sum
+}
+function main(){
+    let n=10
+    console.log(sumOfValues(n))
+}
+main()
+*/
+
+function maximumNumberInSubArray(arr,k){
+    if(arr.length===0)return []
+    let jrr=[]
+    let de=[]
+    for(let i=0;i<arr.length;i++){
+        while(de.length && de[0]<i-k+1){
+            de.shift()
+        }
+        while(de.length && arr[i]>arr[de[de.length-1]]){
+            de.pop()
+        }
+        de.push(i)
+        if(i>=k-1){
+            jrr.push(arr[de[0]])
+        }
+    }
+    return jrr
+
+}
+function main(){
+    let arr=[2,4,7,1,6,3]
+    let k=3
+    console.log(maximumNumberInSubArray(arr,k))
 }
 main()
