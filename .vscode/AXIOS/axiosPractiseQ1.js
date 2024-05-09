@@ -53,3 +53,12 @@ function deleteTodos(){
     })
     .catch((err)=>console.log(err))
 }
+
+
+// editBtn.addEventListener("click", function (event) {
+//     userList.removeChild(event.target.parentElement);
+//     localStorage.removeItem(userDetails.email);
+//     document.getElementById("username").value = userDetails.username;
+//     document.getElementById("email").value = userDetails.email;
+//     document.getElementById("phone").value = userDetails.phone;
+//   });

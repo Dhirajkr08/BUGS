@@ -1,0 +1,65 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#count{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-style: italic;
+
+
+}
+#div1{
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#div2{
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+button{
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+label{
+    font-style: italic;
+}
+#div3{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    height: auto;
+    padding-bottom: 10px;
+    
+}
+input{
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid blue;
+}
+textarea{
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
