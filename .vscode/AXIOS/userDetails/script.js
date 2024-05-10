@@ -73,6 +73,7 @@ function editFunction(userDetails,userId,list){
             .then((res)=>{
                 //list.remove()
                 console.log("successfully edited Data",res.data)
+                //localStorage.(email,JSON.stringify())
 
                 list.innerHTML = `Name: ${updateDetails.name}, Email: ${updateDetails.email}, Phone: ${updateDetails.phone}<br>
                 <button>Edit</button><button>Delete</button>`;
