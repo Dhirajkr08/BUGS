@@ -3,7 +3,8 @@ function removeDupString(s){
     for(let i of s){
         if(stack.length && stack[stack.length-1]===i){
             stack.pop()
-        }else{
+        }
+        else{
             stack.push(i)
         }
     }
