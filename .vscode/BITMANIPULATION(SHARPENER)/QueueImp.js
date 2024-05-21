@@ -2,12 +2,11 @@ class Queue{
     constructor(){
         this.queue=[]
     }
-    Enqueue(val){
-        return this.queue.push(val)
-    }
-    
     isEmpty(){
         return this.queue.length===0
+    }
+    Enqueue(val){
+        this.queue.push(val)
     }
     Dequeue(){
         if(!this.isEmpty()){
@@ -15,17 +14,16 @@ class Queue{
         }
     }
     getFirstEle(){
-        if(this.queue.length!==0){
+        if(!this.isEmpty()){
             return this.queue[0]
         }
     }
 }
 let q=new Queue()
-q.Enqueue(1)
-q.Enqueue(2)
-q.Enqueue(3)
-q.Enqueue(6)
-q.Enqueue(0)
-console.log(q.getFirstEle())
+q.Enqueue(9)
+q.Enqueue(8)
+q.Enqueue(7)
+q.Enqueue(12)
 console.log(q.isEmpty())
 console.log(q.Dequeue())
+console.log(q.getFirstEle())
