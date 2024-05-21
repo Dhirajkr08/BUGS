@@ -1,5 +1,5 @@
 function validateStack(pushed,popped){
-    let stack=[]
+    let  stack=[]
     for(let i of pushed){
         stack.push(i)
         while(stack.length && popped.length && stack[stack.length-1]===popped[0]){

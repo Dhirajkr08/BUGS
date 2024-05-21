@@ -1,6 +1,6 @@
 function isValid(s){
     let stack=[]
-    let dict={'{':'}',')':'(',']':'['}
+    let dict={'}':'{',']':'[',')':'('}
     for(let i of s){
         if(i in dict){
             if(stack.length===0 || stack.pop()!==dict[i]){
