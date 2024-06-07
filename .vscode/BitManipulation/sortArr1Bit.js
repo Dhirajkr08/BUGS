@@ -1,9 +1,9 @@
 
 function sortArr(arr){
     return arr.sort((a,b)=>{
-        let A=a.toString(2).split('').filter(glu=>glu==='1').length
-        let B=b.toString(2).split('').filter(glu=>glu==='1').length
-        return a-b || A-B
+        let A=a.toString(2).split('').filter((sh)=>sh==='1').length;
+        let B=b.toString(2).split('').filter((sh)=>sh==='1').length;
+        return A-B || a-b 
     })
 }
 function main(){
