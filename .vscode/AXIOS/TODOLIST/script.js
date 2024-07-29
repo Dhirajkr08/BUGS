@@ -8,7 +8,7 @@ function addTodo(e){
         completed:false 
     }
     if(todoDetails){
-        axios.post('https://crudcrud.com/api/da54d677cb074979a95e7185b5875c37/todoList',todoDetails)
+        axios.post('https://crudcrud.com/api/8c55141f11d346f6bb0cb9b883c728a1/todoList',todoDetails)
         .then((response)=>{
             console.log("Successfully submitted Data",response.data)
             const userId=response.data._id
@@ -26,7 +26,7 @@ function addTodo(e){
 
 }
 function displayTodo(todoDetails,userId){
-    axios.get(`https://crudcrud.com/api/da54d677cb074979a95e7185b5875c37/todoList/${userId}`)
+    axios.get(`https://crudcrud.com/api/8c55141f11d346f6bb0cb9b883c728a1/todoList/${userId}`)
     .then((res)=>{
         console.log('successfully getting data for display',res.data)
         const list=document.createElement('li')
@@ -56,7 +56,7 @@ function workDone(todoDetails,userId,list){
         description:todoDetails.description,
         completed:true
     }
-    axios.put(`https://crudcrud.com/api/da54d677cb074979a95e7185b5875c37/todoList/${userId}`,updateTodoDetails)
+    axios.put(`https://crudcrud.com/api/8c55141f11d346f6bb0cb9b883c728a1/todoList/${userId}`,updateTodoDetails)
     .then((res)=>{
         console.log('Successfully updated',res.data)
         list.remove()
@@ -73,7 +73,7 @@ function displayUpdate(updateTodoDetails){
 }
 
 function deleteTodo(userId,list){
-    axios.delete(`https://crudcrud.com/api/da54d677cb074979a95e7185b5875c37/todoList/${userId}`)
+    axios.delete(`https://crudcrud.com/api/8c55141f11d346f6bb0cb9b883c728a1/todoList/${userId}`)
     .then((res)=>{
         console.log('Successfully deleted',res.data)
         list.remove()

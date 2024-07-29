@@ -1,0 +1,32 @@
+#div1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#fruit{
+    padding: 10px;
+    width: 70%;
+    border: 2px solid  lightgreen;
+    border-radius: 5px;
+}
+#submit{
+    padding: 13px;
+    width: 28%;
+    background-color:lightgreen ;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+#search{
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    
+    
+}

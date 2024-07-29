@@ -1,4 +1,4 @@
-function printPattern(n){
+function print(n){
     if(n>=1 && n<=20){
         for(let i=0;i<n;i++){
             let str=''
@@ -12,7 +12,7 @@ function printPattern(n){
             }
             else{
                 str+='*'
-                for(let k=0;k<2*i-1;k++){
+                for(let l=0;l<2*i-1;l++){
                     str+=' '
                 }
                 if(i>0){
@@ -24,4 +24,4 @@ function printPattern(n){
     }
 }
 let n=4
-printPattern(n)
+print(n)

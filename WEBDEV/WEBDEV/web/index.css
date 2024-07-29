@@ -1,0 +1,38 @@
+form{
+    background-color:darkgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    
+}
+input{
+    width: 95%;
+    padding: 5px;
+    
+    
+}
+label{
+    
+    text-align: left;
+    display: block
+}
+#submit{
+    background-color: black;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+.list{
+    background-color: darkgray;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}

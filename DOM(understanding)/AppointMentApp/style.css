@@ -1,0 +1,48 @@
+label{
+    font-style: italic;
+    font-weight: bold;
+    color: darkgreen;
+    padding: 10px;
+}
+form{
+    background-color: grey;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-style: oblique;
+    color: darkblue;
+}
+#div1{
+    background-color: aqua;
+    border-radius: 5px;
+    border:none
+}
+#div2{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    padding: 45px;
+    height: auto;
+    
+}
+input{
+    padding: 5px;
+    float: right;
+    width: 80%;
+}
+#submit{
+    background-color: crimson;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    font-weight: bold;
+    color: darkblue;
+}

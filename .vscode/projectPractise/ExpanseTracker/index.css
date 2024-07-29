@@ -1,0 +1,84 @@
+#div1{
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+    
+
+}
+h1{
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color:royalblue
+
+}
+
+label{
+    font-weight: bold;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    font-style: italic;
+    color:darkblue;
+    
+}
+input{
+    border-radius: 5px;
+    border:none;
+    font-style: italic;
+    width: 100%;
+    padding: 5px;
+    color: darkblue;
+    
+
+}
+#submit{
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    color:cornflowerblue;
+
+}
+#div2{
+    padding: 10px;
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+#div3{
+    background-color: lightseagreen;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+
+}
+#div4{
+    background-color:lightslategrey;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+#head2{
+    color: indigo;
+    font-weight: bold;
+    font-style:italic ;
+
+}
+ul{
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+    color: indigo;
+}
