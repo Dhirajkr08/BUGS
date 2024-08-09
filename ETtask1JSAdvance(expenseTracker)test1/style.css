@@ -1,0 +1,51 @@
+#div1{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    border-radius: 5px;
+    border:2px solid darkcyan;
+    color: darkred;
+    font-weight: bold;
+    padding: 10px;
+}
+#div2{
+    display: block;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 2px solid darkcyan;
+    padding:40px ;
+    border-radius: 5px;
+    font-style: italic;
+
+
+}
+#submit{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    width:100%;
+    font-weight: bold;
+    font-style: oblique;
+    color: darkblue;
+}
+input{
+    padding: 5px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    width:70%
+}
+select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#div4{
+    background-color: cadetblue;
+    border: 2px solid pink;
+    border-radius: 5px;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+}

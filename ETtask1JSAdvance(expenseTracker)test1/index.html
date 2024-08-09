@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ExpenseTracker</title>
+</head>
+<body>
+    <form id="form" onsubmit="handleSubmit(event)">
+        <div class="container" id="div1">
+            <h1 id="header">Expense-Tracker</h1>
+        </div>
+        <div class="container" id="div2">
+            <label for="name">Expense-Name:</label>
+            <input type="text" id="expense" ><br>
+            <lable for="price">$Price:</lable>
+            <input type="number" id="price" >
+            <label type='category'>category</label>
+            <select id="category" >
+                <option>Choose</option>
+                <option id="option1">fuel</option>
+                <option id="option2">grocery</option>
+                <option id="option3">medicine</option>
+                <option id="option4">SkinCare</option>
+            </select>
+        </div>
+        <div class="container" id="div3">
+        <button type="submit" id="submit">Submit Expense</button>
+        </div>
+    </form>
+    <div class="container" id="div4">
+        <ul id="result"></ul>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
